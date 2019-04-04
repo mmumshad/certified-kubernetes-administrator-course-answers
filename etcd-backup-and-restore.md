@@ -65,3 +65,5 @@ Update volumes and volume mounts to point to new path
       type: DirectoryOrCreate
     name: etcd-certs
 ```
+
+> Note: You don't really need to update data directory and volumeMounts.mountPath path above. You could simply just update the hostPath.path in the volumes section to point to the new directory. But if you are not working with a kubeadm deployed cluster, then you might have to update the data directory. That's why I left it as is. 
