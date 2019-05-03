@@ -2,7 +2,7 @@
 
 # 1. Get etcdctl utility if it's not already present.
 
-Reference: (https://github.com/etcd-io/etcd/releases)[https://github.com/etcd-io/etcd/releases]
+Reference: https://github.com/etcd-io/etcd/releases
 
 ```
 ETCD_VER=v3.3.13
